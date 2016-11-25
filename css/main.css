@@ -24,10 +24,19 @@ body {
 .wrapper {
   background-color: #e5c30a;
   max-width: 45em;
-  margin: 0;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .img-flex {
   display: block;
   width: 50%;
+}
+
+.section-letter {
+  float: left;
+}
+
+.section-icon {
+  float: right;
 }
