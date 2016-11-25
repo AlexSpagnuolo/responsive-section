@@ -21,8 +21,11 @@ body {
   margin: 0;
 }
 
-.wrapper {
+section {
   background-color: #e5c30a;
+}
+
+.wrapper {
   max-width: 45em;
   overflow: hidden;
   margin: 0 auto;
@@ -39,4 +42,14 @@ body {
 
 .section-icon {
   float: right;
+}
+
+section h2 {
+  margin-left: 1.4rem;
+  margin-bottom: 0;
+}
+
+section p {
+  margin-left: 1.4rem;
+  margin-top: 0;
 }
