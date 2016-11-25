@@ -82,13 +82,13 @@ section p {
     max-width: none;
   }
 
-  h2 + p {
-    max-width: 45em;
-  }
-
   .img-flex {
     width: 10%;
     margin-top: 2rem;
+  }
+
+  p {
+    margin-top: 4rem;
   }
 
 }
@@ -102,7 +102,18 @@ section p {
 
   .img-flex {
     width: 10%;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .section-icon {
+    margin-right: 5rem;
+    margin-left: 4rem;
+  }
+
+  .section-letter {
+    margin-left: 5rem;
+    margin-right: 4rem;
   }
 
 }
@@ -113,6 +124,8 @@ section p {
     font-size: 130%;
     line-height: 1.5;
   }
-
+  .img-flex {
+    margin-top: 1rem;
+  }
 
 }
